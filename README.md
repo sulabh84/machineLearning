@@ -7,3 +7,6 @@ https://www.anaconda.com/distribution/#download-section
 https://cran.r-project.org/bin/windows/base/
 https://www.rstudio.com/products/rstudio/download/
 
+## Download data sets from
+https://www.superdatascience.com/pages/machine-learning
+
