@@ -21,3 +21,22 @@ imputer = Imputer(missing_values='NaN', strategy='mean', axis=0)
 imputer = imputer.fit(x[:, 1:3])
 x[:, 1:3] = imputer.transform(x[:, 1:3])
 
+# Encoding categorical data
+from sklearn.preprocessing import LabelEncoder
+labelencoder_x = LabelEncoder()
+x[:, 0] = labelencoder_x.fit_transform(x[:, 0])
+
+# convert country to dummy variables
+from sklearn.preprocessing import OneHotEncoder
+# press ctrl + i to see the description of the class
+onehotencoder = OneHotEncoder(categorical_features= [0])
+x = onehotencoder.fit_transform(x).toarray()
+
+# convert result to dummy variable
+labelencoder_y = LabelEncoder()
+y = labelencoder_y.fit_transform(y)
+
+# Splitting the dataset into training set and test set
+from sklearn.model_selection import train_test_split
+x_train, x_test, y_train, y_test = train_test_split(x,y,test_size = 0.2)
+
