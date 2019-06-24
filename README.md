@@ -16,19 +16,19 @@ https://www.superdatascience.com/pages/machine-learning
 independent variable  
 dependent variable  
 
-###Observation for dataset:  
+### Observation for dataset:  
 1) Missing data  
   Solution 1: skip the missing data rows  
   Solution 2: put the mean of all other data  
 
 
-###Categorical variables:  
+### Categorical variables:  
 1) Country - France,spain,germany  
 2) Purchased - true or false  
 Problem: Characters can not be used for calculation  
 Solution: We have convert the values to some integer to calculate  
 
-###Dummy Encoding:  
+### Dummy Encoding:  
 Problem: if we convert France,spain,germany in numbers like 1,2,3 respectively the equation understand it
     as france is lesser than spain and spain is lesser than germany  
 Solution: We have to create as many column as many gategories and assign 0 and 1   
@@ -37,7 +37,7 @@ Solution: We have to create as many column as many gategories and assign 0 and 1
     0        1        0  
     0        0        1 
 
-###Feature Scalling  
+### Feature Scalling  
 Problem: values of different column will vary from range  
    lets say age is between 27 to 50  
    but salary is between 48000 to 83000  
