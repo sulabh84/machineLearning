@@ -16,8 +16,8 @@ https://www.superdatascience.com/pages/machine-learning
 independent variable  
 dependent variable  
 
-### Observation for dataset:  
-1) Missing data  
+## Observation for dataset:  
+### Missing data  
   Solution 1: skip the missing data rows  
   Solution 2: put the mean of all other data  
 
