@@ -50,6 +50,7 @@ Solution - We need to do feature scalling where we transform the value between -
 ## Regression
 
 ### Simple Linear Regression
+     y = a + bx
 ### Multiple Linear Regression
 ### Polynomial Regression
 ### Support Vector Regression (SVR)
