@@ -45,3 +45,28 @@ Problem: values of different column will vary from range
   Y cordinate will dominate the x cordinate  
 Solution - We need to do feature scalling where we transform the value between -1 to 1  
 
+# Machine Learning Algorithms
+
+## Regression
+
+### Simple Linear Regression
+### Multiple Linear Regression
+### Polynomial Regression
+### Support Vector Regression (SVR)
+### Decision Tree Regression
+### Random Forest Regression
+
+## Classification
+
+### Logistic Regression
+### K-Nearest Neighbors (K-NN)
+### Support Vector Machine (SVM)
+### Naive Bayes
+### Decision Tree Classification
+### Random Forest Classification
+
+## Clustering
+
+### K-Mean Clustering
+### Hierarchical Clustering
+
