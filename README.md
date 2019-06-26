@@ -50,7 +50,10 @@ Solution - We need to do feature scalling where we transform the value between -
 ## Regression
 
 ### Simple Linear Regression
-     y = a + bx
+     y = a + bx  
+     Ordinary Least Squares  
+        Diff between actual point and the line  
+          Sum (y - y^)^2 --> min
 ### Multiple Linear Regression
 ### Polynomial Regression
 ### Support Vector Regression (SVR)
