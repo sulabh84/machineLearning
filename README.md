@@ -53,8 +53,21 @@ Solution - We need to do feature scalling where we transform the value between -
      y = a + bx  
      Ordinary Least Squares  
         Diff between actual point and the line  
-          Sum (y - y^)^2 --> min
+          Sum (y - y^)^2 --> min  
 ### Multiple Linear Regression
+     y = a + b1x1 + b2x2 + b3x3 .... + bnxn
+     Caveat -- Assumptions  
+        1) Linearity
+        2) Homoscedasticity
+        3) Multivariate normality
+        4) Independence of errors
+        5) Lack of multicollinearity
+      Dummy Variables (Categorical Column):
+	It is not a number
+	State - New york / California
+	Always add one less dummy variable in equation
+	y = z + b1x1 + b2x2 + d1x1
+	
 ### Polynomial Regression
 ### Support Vector Regression (SVR)
 ### Decision Tree Regression
