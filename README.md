@@ -55,18 +55,26 @@ Solution - We need to do feature scalling where we transform the value between -
         Diff between actual point and the line  
           Sum (y - y^)^2 --> min  
 ### Multiple Linear Regression
-     y = a + b1x1 + b2x2 + b3x3 .... + bnxn
-     Caveat -- Assumptions  
-        1) Linearity
-        2) Homoscedasticity
-        3) Multivariate normality
-        4) Independence of errors
-        5) Lack of multicollinearity
-      Dummy Variables (Categorical Column):
-	It is not a number
-	State - New york / California
-	Always add one less dummy variable in equation
-	y = z + b1x1 + b2x2 + d1x1
+     y = a + b1x1 + b2x2 + b3x3 .... + bnxn  
+     Caveat -- Assumptions    
+        1) Linearity  
+        2) Homoscedasticity  
+        3) Multivariate normality  
+        4) Independence of errors  
+        5) Lack of multicollinearity  
+      Dummy Variables (Categorical Column):  
+	Dummy Variable Trap  
+	It is not a number Column  
+	State - New york / California  
+	Always add one less dummy variable in equation  
+	y = z + b1x1 + b2x2 + d1x1   
+
+      5 Methods of building models:  
+	1) All-in 
+	2) Backward Elimination  
+	3) Forward Selection  
+	4) Bidirectional Elimination  
+	5) Score comparison  
 	
 ### Polynomial Regression
 ### Support Vector Regression (SVR)
